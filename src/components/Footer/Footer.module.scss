@@ -1,0 +1,117 @@
+.container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  footer {
+    width: 100%;
+    height: 500px;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &:before {
+      content: "";
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      border-top-left-radius: 50% 100%;
+      border-top-right-radius: 50% 100%;
+      z-index: -1;
+      background-color: #2e3445;
+    }
+
+    a {
+      margin-top: 60px;
+      color: #fff;
+    }
+
+    p {
+      text-align: center;
+      max-width: 500px;
+      margin: 0 auto;
+      padding-bottom: 40px;
+    }
+
+    span {
+      position: absolute;
+      bottom: 30px;
+
+      svg {
+        border-radius: 100px;
+        fill: #222733;
+        background-color: #dbe8d4;
+        margin: 10px;
+        padding: 10px;
+        width: 70px;
+        height: 70px;
+        transition: width 0.1s ease-in, height 0.1s ease-in;
+
+        &:hover {
+          width: 100px;
+          height: 100px;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    footer {
+      height: 450px;
+
+      &:before {
+        border-top-left-radius: 100% 100%;
+        border-top-right-radius: 100% 100%;
+      }
+
+      h1 {
+        font-size: 2.5rem;
+      }
+
+      h2 {
+        font-size: 1rem;
+      }
+
+      p {
+        font-size: 0.7rem;
+        max-width: 200px;
+      }
+    }
+  }
+}
+
+.badges {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 0;
+  height: 100px;
+
+  div {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    svg {
+      fill: #222733;
+      background-color: #dbe8d4;
+      margin: 10px;
+      width: 40px;
+      height: 40px;
+      border-radius: 5px;
+      transition: width 0.1s ease-in, height 0.1s ease-in;
+
+      &:hover {
+        width: 50px;
+        height: 50px;
+        cursor: pointer;
+      }
+    }
+  }
+}

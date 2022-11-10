@@ -1,34 +1,50 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# PORTIFOLIO
 
-## Getting Started
+> A personal portifolio landing page webapp.
 
-First, run the development server:
+## Table of Contents
 
-```bash
-npm run dev
-# or
-yarn dev
+- [Technologies Used](#technologies-used)
+- [Setup](#setup)
+- [Project Status](#project-status)
+- [Room for Improvement](#room-for-improvement)
+- [Acknowledgements](#acknowledgements)
+- [Contact](#contact)
+
+## Technologies Used
+
+- NextJS - 17.0.2
+- React - 18.2.0
+- Sass - 1.56.0
+- Octokit - 2.0.10
+### Running Locally
+
+This project was built with create next-app.  
+Clone this project and install it locally using yarn:
+
+```
+$ cd ./portifolio
+$ yarn
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+All packages and dependencies were installed with yarn. If you prefer using **_npm_**, delete the yarn.lock file
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+## Project Status
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+This project is in progress. There's some features I'm planning to add in future updates.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## Room for Improvement
 
-## Learn More
+To do:
 
-To learn more about Next.js, take a look at the following resources:
+- More custom animations
+- Next 13.0 new functions
+- Resume Page
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Acknowledgements
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- The app design was inspired by [Cory Hughart's portifolio page](https://coryhughart.com/).
 
-## Deploy on Vercel
+## Contact
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Created by [Mateus Nascimento](https://www.linkedin.com/in/mateus-nascimento-735b7b1b6/)

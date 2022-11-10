@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin-top: 3rem;
+  font: normal 100%/1.5 "Titillium Web", sans-serif;
+  color: #DBE8D4;
+  background-color: #222733
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 0.125em;
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 1.25;
+  margin: 3rem 0;
+}
