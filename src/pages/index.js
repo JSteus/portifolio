@@ -39,6 +39,6 @@ export const getStaticProps = async () => {
     props: {
       repos
     },
-    // revalidate: 60 * 60 * 8,
+    revalidate: 60 * 60 * 8,
   };
 };

@@ -2,7 +2,7 @@ import Logos from '../../../Logos'
 import styles from './ProjectItem.module.scss'
 
 export default function ProjectItem({ repo }) {
-  return <a className={styles.container} href={repo?.url} target="_blank">
+  return <a className={styles.container} href={repo?.url} target="_blank" rel="noreferrer">
     {repo?.language && <Logos lang={repo.language} />}
     <div className={styles.textContainer}>
       <h5>{repo?.name}</h5>

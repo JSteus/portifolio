@@ -16,8 +16,8 @@ export default function Header() {
       <h1>Mateus Nascimento</h1>
       <h2>Frontend Developer</h2>
       <Image src="/images/profile.jpg" alt="profile mateus" width={mobile ? 100 : 144} height={mobile ? 100 : 144} />
-      <p>Hello there! My Name is Mateus Nascimento. I'm 23 years old currently living in Brasil.
-        I'm a software developer (with a preference to frontend development) aways looking for new learning oportunities and challenges! </p>
+      <p>Hello there! My Name is Mateus Nascimento. I&apos;m 23 years old currently living in Brasil.
+        I&apos;m a software developer (with a preference to frontend development) aways looking for new learning oportunities and challenges!</p>
     </header>
   </section>
 }

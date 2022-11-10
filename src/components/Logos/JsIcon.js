@@ -6,4 +6,6 @@ const JsIcon = memo((props) => (
   </svg>
 ))
 
+JsIcon.displayName = 'JsIcon'
+
 export default JsIcon

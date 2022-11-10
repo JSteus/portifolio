@@ -6,4 +6,6 @@ const NextIcon = memo((props) => (
   </svg>
 ))
 
+NextIcon.displayName = 'NextIcon'
+
 export default NextIcon

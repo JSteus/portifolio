@@ -9,11 +9,11 @@ export default function About() {
     <img src="https://raw.githubusercontent.com/MicaelliMedeiros/micaellimedeiros/master/image/computer-illustration.png" alt="Computador iuriCode"></img>
       <p>
         I started my journey in 2019, right before the pandemic and, since then, never stopped.
-        I'm always looking for learning opportunities, especially in technologies that I have never used.
+        I&apos;m always looking for learning opportunities, especially in technologies that I have never used.
         I worked with a multitude of tools, such as ReactJS, React Native, NextJS, NodeJS, Docker, PostgreSQL, Sass / Scss, Redux and Bootstrap.
       </p>
       <p>
-        The world of webdevelopment is vast and ever growing, with endless possibilities to express creativity and problem-solving skills,and that's what sparked my love for programing.
+        The world of webdevelopment is vast and ever growing, with endless possibilities to express creativity and problem-solving skills,and that&apos;s what sparked my love for programing.
         My curiosity knows no bounds, and you can expect various changes to this site with every new discovery and skill.
       </p>
       <div>

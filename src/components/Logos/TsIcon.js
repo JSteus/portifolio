@@ -6,4 +6,6 @@ const TsIcon = memo((props) => (
   </svg>
 ))
 
+TsIcon.displayName = 'TsIcon'
+
 export default TsIcon

@@ -6,4 +6,6 @@ const ReactIcon = memo((props) => (
   </svg>
 ))
 
+ReactIcon.displayName = 'ReactIcon'
+
 export default ReactIcon
