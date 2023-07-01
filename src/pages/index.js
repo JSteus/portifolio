@@ -1,12 +1,13 @@
-import Head from 'next/head'
+import Head from "next/head"
 
-import { getMyRepos } from '../services/api'
+import { getMyRepos } from "../services/api"
 
-import Header from '../components/Header'
-import Navbar from '../components/Navbar'
-import ProjectSlider from '../components/ProjectSlider'
-import About from '../components/About'
-import Footer from '../components/Footer'
+import Header from "../components/Header"
+import Navbar from "../components/Navbar"
+import ProjectSlider from "../components/ProjectSlider"
+import About from "../components/About"
+import Footer from "../components/Footer"
+import FadeIn from "../components/FadeIn"
 
 export default function Home({ repos }) {
   return (
@@ -24,21 +25,26 @@ export default function Home({ repos }) {
 }
 
 export const getStaticProps = async () => {
-
   const { data } = await getMyRepos()
 
-  const repos = data.map(i => i.language && ({
-    name: i.name,
-    description: i.description,
-    language: i.language,
-    url: i.html_url,
-    updated_at: i.updated_at
-  })).filter(repo => !!repo).sort((a, b) => new Date(b.updated_at) - new Date(a.updated_at))
+  const repos = data
+    .map(
+      (i) =>
+        i.language && {
+          name: i.name,
+          description: i.description,
+          language: i.language,
+          url: i.html_url,
+          updated_at: i.updated_at,
+        }
+    )
+    .filter((repo) => !!repo)
+    .sort((a, b) => new Date(b.updated_at) - new Date(a.updated_at))
 
   return {
     props: {
-      repos
+      repos,
     },
-    revalidate: 60 * 60 * 8,
-  };
-};
+    // revalidate: 60 * 60 * 8,
+  }
+}

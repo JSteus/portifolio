@@ -8,7 +8,7 @@ export async function getMyRepos() {
   try {
     const result = await octokit.request("Get /users/{username}/repos", {
       username: "JSteus",
-    });
+    })
 
     return(result)
 
