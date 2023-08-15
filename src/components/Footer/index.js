@@ -2,7 +2,6 @@ import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { FaArrowUp } from "react-icons/fa";
 import { FaDiscord } from "react-icons/fa";
-import { FaRegEnvelope } from "react-icons/fa";
 
 import styles from './Footer.module.scss'
 

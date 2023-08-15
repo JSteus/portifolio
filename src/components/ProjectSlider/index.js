@@ -15,7 +15,7 @@ export default function ProjectSlider({ repos }) {
           </p>
           <div className={styles.slider}>
             {repos.map((repo) => (
-              <ProjectItem key={repo.name} repo={repo} />
+              <ProjectItem key={repo.title} repo={repo} />
             ))}
           </div>
         </section>
