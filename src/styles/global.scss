@@ -3,13 +3,33 @@
   padding: 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
+
+  scrollbar-color: #2e3445 transparent;
+
+  &::-webkit-scrollbar {
+    height: 12px;
+    width: 8px;
+  }
+
+  &::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: #2e3445;
+    border-radius: 10px;
+  }
+
+  &::-webkit-scrollbar-thumb:hover {
+    background: black;
+  }
 }
 
 body {
   margin-top: 3rem;
   font: normal 100%/1.5 "Titillium Web", sans-serif;
-  color: #DBE8D4;
-  background-color: #222733
+  color: #dbe8d4;
+  background-color: #222733;
 }
 
 h1,
