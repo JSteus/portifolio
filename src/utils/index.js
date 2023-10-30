@@ -7,6 +7,13 @@ export const projects = [
     imgUrl: "/images/Ignite_timer.png",
   },
   {
+    title: "Hexquest",
+    description: "Hex Color Matching Game",
+    demoUrl: null,
+    gitUrl: "https://github.com/JSteus/hexquest",
+    imgUrl: "/images/hexquest.png",
+  },
+  {
     title: "Podcastr",
     description: "Responsive NextJS Podcast App",
     demoUrl: null,
